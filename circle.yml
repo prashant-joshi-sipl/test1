@@ -4,7 +4,6 @@ dependencies:
 deployment:
   prod:
     branch: master
-    commands:
-      - aws s3 sync /home/ubuntu/test1 s3://circlecitest --delete
-commands:
-      - ./deploy.sh
+    
+	commands:
+       - ./deploy.sh

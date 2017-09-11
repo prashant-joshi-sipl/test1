@@ -4,6 +4,5 @@ dependencies:
 deployment:
   prod:
     branch: master
-    
-	commands:
+    commands:
        - ./deploy.sh
